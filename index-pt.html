@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
@@ -42,17 +42,6 @@
       overflow-x: hidden;
     }
 
-    .grid-bg {
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-      background-size: 40px 40px;
-      z-index: -2;
-      mask-image: radial-gradient(circle at center, black 30%, transparent 90%);
-    }
-
     .language-switcher {
       position: absolute;
       top: 20px;
@@ -85,6 +74,17 @@
       height: 15px;
       object-fit: cover;
       border-radius: 2px;
+    }
+
+    .grid-bg {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      z-index: -2;
+      mask-image: radial-gradient(circle at center, black 30%, transparent 90%);
     }
 
     .container {
@@ -495,9 +495,9 @@
 
 <body>
   <div class="language-switcher">
-    <a href="index-pt.html">
-      <img src="https://flagcdn.com/w20/br.png" srcset="https://flagcdn.com/w40/br.png 2x" alt="Português">
-      Português
+    <a href="index.html">
+      <img src="https://flagcdn.com/w20/us.png" srcset="https://flagcdn.com/w40/us.png 2x" alt="English">
+      English
     </a>
   </div>
 
@@ -509,23 +509,23 @@
         <div>
           <div class="tag">
             <span>●</span>
-            Squad specialized in software development
+            Squad especializada em desenvolvimento de software
           </div>
 
           <h1>
-            We develop
-            <span class="gradient-text">scalable solutions</span>
-            for companies and startups.
+            Desenvolvemos
+            <span class="gradient-text">soluções escaláveis</span>
+            para empresas e startups.
           </h1>
 
           <p>
-            Team composed of a software architect, senior developers, and specialists in web applications, APIs,
-            modern frontends, and mobile apps.
+            Time composto por um arquiteto de software, desenvolvedores sênior e especialistas em aplicações web, APIs,
+            frontends modernos e aplicativos mobile.
           </p>
 
           <div class="hero-buttons">
-            <a href="#contato" class="btn btn-primary">Request a quote</a>
-            <a href="#servicos" class="btn btn-secondary">Explore services</a>
+            <a href="#contato" class="btn btn-primary">Solicitar orçamento</a>
+            <a href="#servicos" class="btn btn-secondary">Conhecer serviços</a>
           </div>
         </div>
 
@@ -557,33 +557,35 @@
 
   <section>
     <div class="container">
-      <h2 class="section-title">About the team</h2>
+      <h2 class="section-title">Sobre a equipe</h2>
       <p class="section-subtitle">
-        We are a squad focused on building modern, sustainable software prepared to grow.
+        Somos um squad focado em construir software moderno, sustentável e preparado para crescer.
       </p>
 
       <div class="cards">
         <div class="card">
-          <div class="badge">Architecture</div>
-          <h3>1 Software Architect</h3>
+          <div class="badge">Arquitetura</div>
+          <h3>1 Arquiteto de Software</h3>
           <p>
-            Specialist in solution architecture, scalability, system integration, and strategic technical decisions.
+            Especialista em arquitetura de soluções, escalabilidade, integração de sistemas e decisões técnicas
+            estratégicas.
           </p>
         </div>
 
         <div class="card">
-          <div class="badge">Seniority</div>
-          <h3>2 Senior Developers</h3>
+          <div class="badge">Senioridade</div>
+          <h3>2 Desenvolvedores Sênior</h3>
           <p>
-            Professionals with experience in enterprise applications, robust APIs, distributed systems, and modern frontend.
+            Profissionais com experiência em aplicações corporativas, APIs robustas, sistemas distribuídos e frontend
+            moderno.
           </p>
         </div>
 
         <div class="card">
-          <div class="badge">Delivery</div>
-          <h3>1 Mid-level Developer</h3>
+          <div class="badge">Entrega</div>
+          <h3>1 Desenvolvedor Pleno</h3>
           <p>
-            Acts in full stack development, evolutionary maintenance, modern interfaces, and continuous technical support.
+            Atuação em desenvolvimento full stack, manutenção evolutiva, interfaces modernas e suporte técnico contínuo.
           </p>
         </div>
       </div>
@@ -592,57 +594,57 @@
 
   <section id="servicos">
     <div class="container">
-      <h2 class="section-title">Specialties</h2>
+      <h2 class="section-title">Especialidades</h2>
       <p class="section-subtitle">
-        We work from architecture to the final product delivery.
+        Atuamos desde a arquitetura até a entrega final do produto.
       </p>
 
       <div class="cards">
         <div class="card">
           <div class="badge">Web Platforms</div>
-          <h3>Full Stack Web Systems</h3>
+          <h3>Sistemas Web Full Stack</h3>
           <p>
-            Development of ERPs, CRMs, SaaS platforms, administrative systems, and enterprise applications.
+            Desenvolvimento de ERPs, CRMs, plataformas SaaS, sistemas administrativos e aplicações corporativas.
           </p>
         </div>
 
         <div class="card">
           <div class="badge">REST APIs</div>
-          <h3>Integrations & APIs</h3>
+          <h3>Integrações & APIs</h3>
           <p>
-            Robust APIs, microservices, webhooks, JWT/OAuth2 authentication, and asynchronous processing.
+            APIs robustas, microsserviços, webhooks, autenticação JWT/OAuth2 e processamento assíncrono.
           </p>
         </div>
 
         <div class="card">
           <div class="badge">Rich Frontends</div>
-          <h3>Modern Frontends</h3>
+          <h3>Frontends Modernos</h3>
           <p>
-            SPAs, analytical dashboards, admin panels, and modern experiences using reactive frameworks.
+            SPAs, dashboards analíticos, admin panels e experiências modernas utilizando frameworks reativos.
           </p>
         </div>
 
         <div class="card">
           <div class="badge">Mobile</div>
-          <h3>Mobile Apps</h3>
+          <h3>Aplicativos Mobile</h3>
           <p>
-            Flutter apps for Android and iOS integrated with APIs and enterprise platforms.
+            Aplicativos Flutter para Android e iOS integrados a APIs e plataformas corporativas.
           </p>
         </div>
 
         <div class="card">
           <div class="badge">Scalability</div>
-          <h3>Scalable Architecture</h3>
+          <h3>Arquitetura Escalável</h3>
           <p>
-            Cloud-ready, queues, distributed cache, observability, and infrastructure prepared for growth.
+            Cloud-ready, filas, cache distribuído, observabilidade e infraestrutura preparada para crescimento.
           </p>
         </div>
 
         <div class="card">
           <div class="badge">DevOps</div>
-          <h3>Modern Infrastructure</h3>
+          <h3>Infraestrutura Moderna</h3>
           <p>
-            Docker, CI/CD, monitoring, automations, and best practices for production environments.
+            Docker, CI/CD, monitoramento, automações e boas práticas para ambientes de produção.
           </p>
         </div>
       </div>
@@ -651,9 +653,9 @@
 
   <section>
     <div class="container">
-      <h2 class="section-title">Tech Stack</h2>
+      <h2 class="section-title">Stack Tecnológica</h2>
       <p class="section-subtitle">
-        Modern technologies for robust, performant, and scalable applications.
+        Tecnologias modernas para aplicações robustas, performáticas e escaláveis.
       </p>
 
       <div class="stack-grid">
@@ -692,7 +694,7 @@
         </div>
 
         <div class="stack-card">
-          <h4>Infrastructure</h4>
+          <h4>Infraestrutura</h4>
           <div class="stack-list">
             <div class="stack-item">Docker</div>
             <div class="stack-item">AWS</div>
@@ -708,18 +710,18 @@
 
   <section>
     <div class="container">
-      <h2 class="section-title">How We Work</h2>
+      <h2 class="section-title">Como Trabalhamos</h2>
       <p class="section-subtitle">
-        Structured process to ensure predictability, quality, and continuous deliveries.
+        Processo estruturado para garantir previsibilidade, qualidade e entregas contínuas.
       </p>
 
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-number">01</div>
           <div class="timeline-content">
-            <h4>Discovery & Planning</h4>
+            <h4>Discovery & Planejamento</h4>
             <p>
-              Technical and business understanding, architecture definition, and implementation strategy.
+              Entendimento técnico e de negócio, definição de arquitetura e estratégia de implementação.
             </p>
           </div>
         </div>
@@ -727,9 +729,9 @@
         <div class="timeline-item">
           <div class="timeline-number">02</div>
           <div class="timeline-content">
-            <h4>Iterative Development</h4>
+            <h4>Desenvolvimento Iterativo</h4>
             <p>
-              Continuous construction focusing on performance, scalability, and code quality.
+              Construção contínua com foco em performance, escalabilidade e qualidade de código.
             </p>
           </div>
         </div>
@@ -737,9 +739,9 @@
         <div class="timeline-item">
           <div class="timeline-number">03</div>
           <div class="timeline-content">
-            <h4>Deploy & Observability</h4>
+            <h4>Deploy & Observabilidade</h4>
             <p>
-              Secure publishing, monitoring, automations, and continuous application tracking.
+              Publicação segura, monitoramento, automações e acompanhamento contínuo da aplicação.
             </p>
           </div>
         </div>
@@ -751,16 +753,17 @@
     <div class="container">
       <div class="cta-box">
         <h2>
-          Ready to build<br>
-          your next product.
+          Prontos para construir<br>
+          seu próximo produto.
         </h2>
 
         <p>
-          Hire a team prepared to take on the development of platforms, APIs, web systems, and mobile apps.
+          Contrate uma equipe preparada para assumir o desenvolvimento de plataformas, APIs, sistemas web e aplicativos
+          móveis.
         </p>
 
         <div class="hero-buttons" style="justify-content:center;">
-          <a href="#" class="btn btn-primary">Request a quote</a>
+          <a href="#" class="btn btn-primary">Solicitar orçamento</a>
         </div>
       </div>
     </div>
